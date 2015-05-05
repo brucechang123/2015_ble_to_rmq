@@ -44,6 +44,7 @@ public class commandline {
 				System.out.println(str.substring(40));
 			}
 			else
+				// output received ble message
 				System.out.println(str);
 			if (temp0.equals(str)) {
 				status = "connectting";
